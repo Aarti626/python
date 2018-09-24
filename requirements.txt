@@ -1,2 +1,8 @@
 Flask
-Redis
+tensorflow==1.4
+nltk==3.3
+numpy
+logging
+tflearn
+random
+json
