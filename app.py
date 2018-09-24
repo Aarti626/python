@@ -1,2 +1,1 @@
-
-   exec python eval.py
+exec python eval.py
