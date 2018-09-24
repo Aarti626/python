@@ -1,6 +1,6 @@
+import tensorflow as tf
 import numpy as np
 import tflearn
-import tensorflow as tf
 import random
 import json
 import nltk
