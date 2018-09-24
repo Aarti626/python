@@ -1,0 +1,5 @@
+tensorflow>=1.0
+numpy
+logging
+
+nltk>=3.3
