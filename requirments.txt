@@ -1,7 +1,6 @@
 tensorflow>=1.4
 numpy
 logging
-numpy 
 tflearn
 random
 json
