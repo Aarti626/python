@@ -78,17 +78,6 @@ def response(sentence, show_details=False):
                 results.pop(0)
 
 if __name__ == "__main__":
-    print classify("call customer support agent")
-    print classify("hi")
-    print classify("need help from it agent")
-    print classify("tata consultancy")
-    print classify("lets party")
-    print classify("snapdeal")
-    print classify("sadsadas@asdsa.com")
-    print classify("sfsdf")
-    print classify("asff")
-    print classify("wqee@gmail.com")
-    print classify("djs@yahoo.com")
     app.run(host='0.0.0.0', port=80)
 
 
