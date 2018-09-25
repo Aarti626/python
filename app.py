@@ -30,7 +30,7 @@ with open('./intents.json') as json_data:
     intents = json.load(json_data)
 # load our saved model
 model.load('./model.tflearn')
-
+sentence="hello"
 def clean_up_sentence(sentence):
     # tokenize the pattern
     sentence_words = nltk.word_tokenize(sentence)
