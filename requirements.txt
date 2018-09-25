@@ -1,3 +1,4 @@
+pip==18.0
 Flask
 tensorflow==1.4
 nltk==3.3
