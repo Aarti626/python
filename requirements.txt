@@ -5,3 +5,4 @@ numpy
 tflearn
 random
 json
+logging
