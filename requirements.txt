@@ -4,3 +4,4 @@ nltk==3.3
 numpy
 tflearn
 json
+random
