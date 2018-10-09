@@ -1,6 +1,5 @@
 pip==18.0
 numpy
-wheel
 pandas
 Flask
 requests
