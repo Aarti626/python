@@ -1,7 +1,5 @@
 pip==18.0
-numpy
-pandas
 Flask
 requests
-vaderSentiment
+
 
