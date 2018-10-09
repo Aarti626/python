@@ -12,7 +12,7 @@ app = Flask(__name__)
 def index():
     return "Python Microservice To fetch sentiment score"
 
-@app.route("/sum", ,methods=["POST"])
+@app.route("/sum",methods=["POST"])
 def sum(num1,num2):
     sum = int(num1) + int(num2)
     
