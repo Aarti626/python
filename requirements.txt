@@ -1,5 +1,6 @@
 pip==18.0
-Pandas
+wheel
+pandas
 Flask
 requests
 vaderSentiment
