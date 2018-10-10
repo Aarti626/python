@@ -8,9 +8,9 @@ app = Flask(__name__)
 # global identifier
 
 
-@app.route("/")
-def index():
-    return "Python Microservice To fetch sentiment score"
+#@app.route("/")
+#def index():
+   # return "Python Microservice To fetch sentiment score"
 
 @app.route("/sum",methods=["POST"])
 def sum(num1,num2):
