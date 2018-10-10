@@ -13,7 +13,9 @@ app = Flask(__name__)
    # return "Python Microservice To fetch sentiment score"
 
 @app.route("/sum",methods=["GET"])
-def sum(num1,num2):
+def sum():
+    num1=request.args.get("num1", "")
+    num2=request.args.get("num2", "")  
     sum = int(num1) + int(num2)
     
 # Display the sum
