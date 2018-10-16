@@ -8,20 +8,20 @@ app = Flask(__name__)
 # global identifier
 
 
-#@app.route("/")
-#def index():
-   # return "Python Microservice To fetch sentiment score"
+@app.route("/")
+def index():
+   return render_template("templates/index.html")
 
 @app.route("/sum",methods=["GET"])
 def sum():
-    num1=request.args.get("num1", "")
-    num2=request.args.get("num2", "")  
-    sum = int(num1) + int(num2)
+#     num1=request.args.get("num1", "")
+#     num2=request.args.get("num2", "")  
+#     sum = int(num1) + int(num2)
     
 # Display the sum
-    print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
+#     print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
 
-    return str(sum)
+    return render_template("templates/index.html")
     
         
 if __name__ == "__main__":
